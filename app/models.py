@@ -9,4 +9,4 @@ class QUESTION(models.Model):
 
 
     def __str__(self):
-        return f"{self.name}, {self.q2}"
+        return f"{self.name}, {self.q1}, {self.q3}"
